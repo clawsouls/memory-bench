@@ -1,0 +1,65 @@
+[
+  {
+    "id": "E01",
+    "category": "exact",
+    "question": "What is the project's license type?",
+    "answer": "MIT License",
+    "ground_truth_files": ["memory/project-setup.md"]
+  },
+  {
+    "id": "E02",
+    "category": "exact",
+    "question": "What database version are we using?",
+    "answer": "PostgreSQL 16.2",
+    "ground_truth_files": ["memory/tech-stack.md"]
+  },
+  {
+    "id": "E03",
+    "category": "exact",
+    "question": "What is the API rate limit?",
+    "answer": "100 requests per minute",
+    "ground_truth_files": ["memory/api-config.md"]
+  },
+  {
+    "id": "P01",
+    "category": "paraphrase",
+    "question": "When did we file the paperwork with the lawyer?",
+    "answer": "Legal filing completed on [date]",
+    "ground_truth_files": ["memory/legal.md"]
+  },
+  {
+    "id": "P02",
+    "category": "paraphrase",
+    "question": "Which startup did that famous investor back?",
+    "answer": "Investor X backed Company Y",
+    "ground_truth_files": ["memory/competitors.md"]
+  },
+  {
+    "id": "P03",
+    "category": "paraphrase",
+    "question": "Why did we rename the storage device?",
+    "answer": "Encoding issue with non-ASCII characters",
+    "ground_truth_files": ["memory/system.md"]
+  },
+  {
+    "id": "C01",
+    "category": "contextual",
+    "question": "What should we be careful about in the open-source community?",
+    "answer": "Avoid commercial impressions — community trust matters more than short-term revenue",
+    "ground_truth_files": ["MEMORY.md"]
+  },
+  {
+    "id": "C02",
+    "category": "contextual",
+    "question": "What is our real competitive advantage?",
+    "answer": "Ecosystem integration, not price competition",
+    "ground_truth_files": ["memory/strategy.md"]
+  },
+  {
+    "id": "C03",
+    "category": "contextual",
+    "question": "How should we pitch to enterprise customers?",
+    "answer": "Focus on infrastructure pain point, not AI capabilities",
+    "ground_truth_files": ["memory/business.md"]
+  }
+]
